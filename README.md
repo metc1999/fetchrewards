@@ -1,9 +1,9 @@
-***Fetch Rewards Data Analysis - ReadMe***
+#Fetch Rewards Data Analysis - ReadMe#
 
-Introduction
+**Introduction**
 
 This project involves analyzing datasets provided by Fetch Rewards, which include details about products, transactions, and users. The goal is to uncover actionable insights through data exploration and SQL queries, focusing on key metrics like popular brands, generational sales trends, and identifying power users.
-
+________________________________________________________________________________________________________________________________________________________________________________________
 Datasets Overview
 
 Products Dataset: Contains information about product categories, manufacturers, brands, and barcodes.
@@ -11,10 +11,11 @@ Products Dataset: Contains information about product categories, manufacturers, 
 Transactions Dataset: Includes details about receipts, purchase dates, scanned dates, store names, user IDs, barcodes, quantities, and sales values.
 
 Users Dataset: Contains user IDs, account creation dates, birth dates, state, language, and gender.
+________________________________________________________________________________________________________________________________________________________________________________________
 
-Queries and Results
+**Queries and Results**
 
-Query 1: Top 5 Brands by Receipts Scanned (Users 21 and Over)
+**Query 1: Top 5 Brands by Receipts Scanned (Users 21 and Over)**
 
 Process:
 
@@ -47,8 +48,9 @@ Dove (279 receipts)
 Barefoot (276 receipts)
 
 Oribe (252 receipts)
+________________________________________________________________________________________________________________________________________________________________________________________
 
-Query 2: Percentage of Sales in Health & Wellness Category by Generation
+**Query 2: Percentage of Sales in Health & Wellness Category by Generation**
 
 Process:
 
@@ -80,11 +82,12 @@ Sales amounts (final_sale) were stored as strings and converted to numeric value
 
 Findings:
 
-Gen X contributed the most to Health & Wellness sales (36%), followed by Millennials (34%) and Boomers (29%).
+Gen X contributed the most to Health & Wellness sales (36%), followed by Millennials at 34% and Boomers at 29%.
 
 Younger generations (Gen X and Millennials) are key drivers of sales in this category.
+_______________________________________________________________________________________________________________________________________________________________________________________
 
-Query 3: Fetch’s Power Users
+**Query 3: Fetch’s Power Users***
 
 Process:
 
@@ -107,8 +110,9 @@ Findings:
 Power users were identified as those with three or more receipts scanned, representing the top 1% of users.
 
 Six power users were identified, each scanning three receipts, indicating their high engagement with the platform.
+________________________________________________________________________________________________________________________________________________________________________________________
 
-Conclusion
+**Conclusion**
 
 This analysis highlights key insights about Fetch Rewards users and their behavior:
 
@@ -117,8 +121,9 @@ Coca-Cola, Annie’s Homegrown Grocery, Dove, Barefoot, and Oribe are the most p
 Health & Wellness sales are driven primarily by Gen X and Millennials, signaling a need to focus marketing efforts on these demographics.
 
 The identified power users represent the most engaged portion of the user base, potentially serving as advocates for Fetch Rewards.
+________________________________________________________________________________________________________________________________________________________________________________________
 
-Next Steps
+**Next Steps**
 
 Investigate the missing and invalid data in the datasets to improve data quality.
 
@@ -129,3 +134,4 @@ Develop strategies to increase engagement among less active users based on insig
 Contact
 
 If you have any questions or need further clarifications, please don’t hesitate to reach out!
+
